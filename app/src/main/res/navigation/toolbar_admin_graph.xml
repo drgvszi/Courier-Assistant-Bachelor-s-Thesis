@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navigation_orders_handler">
+
+    <fragment
+        android:id="@+id/navigation_order_creator"
+        android:name="com.example.locapp.adminui.dashboard.order_creator.OrderCreatorFragment"
+        android:label="Order creator"
+        tools:layout="@layout/fragment_stats" />
+
+    <fragment
+        android:id="@+id/navigation_orders_handler"
+        android:name="com.example.locapp.adminui.dashboard.orders_handler.OrdersHandlerFragment"
+        android:label="Orders handler"
+        tools:layout="@layout/fragment_accepted_orders" />
+
+    <fragment
+        android:id="@+id/navigation_users_handler"
+        android:name="com.example.locapp.adminui.dashboard.users_handler.UsersHandlerFragment"
+        android:label="Users handler"
+        tools:layout="@layout/fragment_notifications" />
+
+</navigation>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:checkableBehavior="single">
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/icon_map"
+        android:title="@string/title_map" />
+    <item
+        android:id="@+id/navigation_dashboard"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="@string/title_dashboard" />
+    <item
+        android:id="@+id/navigation_settings"
+        android:icon="@drawable/baseline_settings_applications_24"
+        android:title="@string/title_settings" />
+
+    <item
+        android:id="@+id/navigation_dashboard_admin"
+        android:icon="@drawable/cut_card_background"
+        android:title="Admin menu" />
+
+    </group>
+
+</menu>

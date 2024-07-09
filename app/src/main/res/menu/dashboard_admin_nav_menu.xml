@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/navigation_order_creator"
+        android:icon="@drawable/order_creator_asset"
+        app:showAsAction="ifRoom"
+        android:title="Order creator" />
+    <item
+        android:id="@+id/navigation_orders_handler"
+        android:icon="@drawable/baseline_app_registration_24"
+        android:title="Orders handler"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/navigation_users_handler"
+        android:icon="@drawable/users_handler_asset"
+        android:title="Users handler"
+        app:showAsAction="ifRoom" />
+
+</menu>

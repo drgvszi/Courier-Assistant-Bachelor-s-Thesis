@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="item_background"> #70344055 </color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="textMap">#9EDAF6</color>
+    <color name="Accept_buttons"> #A790A5 </color>
+    <color name="Finish_buttons">#1E3C72</color>
+    <color name="red">#330002</color>
+    <color name="Cancel_buttons"> #270202 </color>
+    <color name="Sign_out_buttons">#850000</color>
+    <color name="show_buttons">#B3272755</color>
+    <color name="colorPrimary">#C837722D</color>
+    <color name="colorPrimaryDark">#000213</color>
+    <color name="colorAccent">#94012240</color>
+    <color name="yellow">#8DA79813</color>
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sort_options">
+        <item>Newest</item>
+        <item>Oldest</item>
+        <item>User Id</item>
+        <item>Order Name</item>
+        <item>Order Status</item>
+        <item>Pay status</item>
+        <item>Delivery zone</item>
+    </string-array>
+
+    <string-array name="sort_options_notf">
+        <item>Newest</item>
+        <item>Oldest</item>
+        <item>Order Name</item>
+        <item>Pay status</item>
+        <item>Delivery zone</item>
+    </string-array>
+
+    <string-array name="filter_options">
+        <item>None</item>
+        <item>Paid</item>
+        <item>Unpaid</item>
+        <item>Order in progress</item>
+        <item>Delayed orders</item>
+    </string-array>
+
+    <string-array name="delivery_zone_options">
+        <item>Alexandru cel Bun</item>
+        <item>Cantemir</item>
+        <item>Centru</item>
+        <item>Copou</item>
+        <item>Gara</item>
+        <item>Moara de vant</item>
+        <item>Tatarasi Nord</item>
+        <item>Tatarasi Sud</item>
+        <item>None</item>
+    </string-array>
+
+    <string-array name="number_of_orders">
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+</resources>

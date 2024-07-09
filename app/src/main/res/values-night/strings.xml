@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="stats">Stats</string>
+    <string name="accepted_orders">Accepted Orders</string>
+    <string name="history">History</string>
+    <string name="all_routes">Routes</string>
+    <string name="dashboard_route_list">List</string>
+    <string name="show_routes">Personal route</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="show_the_best_route">Optimized route</string>
+    <string name="select_orders_text">Select orders</string>
+</resources>

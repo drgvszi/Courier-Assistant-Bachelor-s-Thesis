@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/popup_dialog">
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_marginHorizontal="20dp"
+        android:id="@+id/orderNameTextView"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit:"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/user_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:hint="User ID"
+        android:inputType="text"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:layout_marginHorizontal="25dp"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/user_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:hint="User name"
+        android:inputType="text"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:layout_marginHorizontal="25dp"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/user_phonenumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:hint="User Phone number"
+        android:inputType="text"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:layout_marginHorizontal="25dp"
+        android:autofillHints="" />
+
+    <Button
+        android:layout_marginHorizontal="25dp"
+        android:id="@+id/select_zones_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/Finish_buttons"
+        android:textColor="@color/white"
+        android:text="Select Zones" />
+
+
+    <EditText
+        android:layout_marginHorizontal="25dp"
+        android:id="@+id/user_target"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:hint="Orders target"
+        android:inputType="text"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:autofillHints="" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginVertical="15dp"
+        android:layout_gravity="center">
+
+            <Button
+                android:id="@+id/complete"
+                android:layout_width="100dp"
+                android:layout_height="48dp"
+                android:backgroundTint="@color/Finish_buttons"
+                android:text="Complete"
+                android:textColor="@color/white"
+                style="?android:attr/buttonBarButtonStyle"
+                />
+
+            <Button
+                android:id="@+id/cancel_button"
+                android:layout_width="100dp"
+                android:layout_height="48dp"
+                android:backgroundTint="@color/Cancel_buttons"
+                android:text="Cancel"
+                android:textColor="@color/white"
+                style="?android:attr/buttonBarButtonStyle"
+                />
+
+        </LinearLayout>
+</LinearLayout>
